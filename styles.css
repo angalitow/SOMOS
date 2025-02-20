@@ -1,10 +1,9 @@
 header{
-    display: flexbox;
     justify-content: baseline;
     background-color: orangered;
     font-size: 30px;
     padding: 0;
-    min-width: 420px;
+    min-width: 700px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 
@@ -33,23 +32,21 @@ header{
 }
 
 main{
-    display: flexbox;
     background-color: black;
     margin: 0;
     padding: 0;
     color: white;
-    min-width: 420px;
+    min-width: 700px;
 }
 
 .cards{
-    min-width: 420px;
     display: flex;
     margin-inline: 30px;
     text-align: center;
     justify-items: center;
     width: 100vw;
     justify-content: center;
-    min-width: 420px;
+    min-width: 700px;
     
 
 .card{
