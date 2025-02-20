@@ -3,7 +3,7 @@ header{
     background-color: orangered;
     font-size: 30px;
     padding: 0;
-    min-width: 700px;
+    min-width: 930px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 
@@ -36,7 +36,7 @@ main{
     margin: 0;
     padding: 0;
     color: white;
-    min-width: 700px;
+    min-width: 930px;
 }
 
 .cards{
@@ -46,7 +46,7 @@ main{
     justify-items: center;
     width: 100vw;
     justify-content: center;
-    min-width: 700px;
+    min-width: 930px;
     
 
 .card{
