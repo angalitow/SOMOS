@@ -2,7 +2,6 @@ header{
     justify-content: baseline;
     background-color: orangered;
     font-size: 30px;
-    margin: 0;
     padding: 0;
     min-width: 420px;
     text-align: center;
@@ -11,6 +10,7 @@ header{
     h1{
         margin: 0;
         padding: 0;
+        text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.5);
     }
     ul{
         display: flex;
@@ -45,7 +45,7 @@ main{
     justify-items: center;
     width: 90vw;
     justify-content: center;
-    min-width: 420px;
+    min-width: 700px;
     
 
 .card{
@@ -60,4 +60,16 @@ main{
         border-radius: 90%;
     }
 
+}
+
+.equipo{
+    justify-items: center;
+    background-color: rgb(255, 194, 28);
+    color: black;
+    margin: auto;
+
+    h1{
+        text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.5);
+
+    }
 }
