@@ -1,0 +1,63 @@
+header{
+    justify-content: baseline;
+    background-color: orangered;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    min-width: 420px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+    h1{
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        li{
+            margin-inline: auto;
+            font-size: 20px;
+            list-style-type: none;
+            margin-bottom: 10px;
+        }
+    }
+
+    a{
+        color: black;
+    }
+
+
+}
+
+main{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+    min-width: 420px;
+}
+
+.cards{
+    display: flex;
+    margin-inline: 30px;
+    text-align: center;
+    justify-items: center;
+    width: 90vw;
+    justify-content: center;
+    min-width: 420px;
+    
+
+.card{
+    margin-inline: 20px;
+}
+
+    a{
+        color: orangered;
+    }
+
+    img{
+        border-radius: 90%;
+    }
+
+}
