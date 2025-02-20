@@ -48,16 +48,14 @@ main{
     justify-content: center;
     min-width: 930px;
     
+.img{
+    min-width: 10vw;
+}
 
 .card{
 
     min-width: 10px;
     margin-inline: 20px;
-    
-    img{
-        border-radius: 90%;
-        min-width: 10vw;
-    }
 
 }
 
