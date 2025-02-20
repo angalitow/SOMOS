@@ -4,15 +4,16 @@ header{
     background-color: orangered;
     font-size: 30px;
     padding: 0;
-    min-width: 500px;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    min-width: 300px;
 
 
     h1{
         margin: 0;
         padding: 0;
         text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.5);
+        min-width: 300px;
     }
     ul{
         display: flex;
@@ -33,12 +34,10 @@ header{
 }
 
 main{
-    display: flexbox;
     background-color: black;
     margin: 0;
     padding: 0;
     color: white;
-    min-width: 500px;
 }
 
 
@@ -136,7 +135,7 @@ main{
     justify-items: center;
     font-size: 30px;
     img{
-        height: 60vh;
+        width: auto;
     }
     p{
         background-color: orangered;
